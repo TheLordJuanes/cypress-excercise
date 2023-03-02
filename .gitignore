@@ -9,6 +9,8 @@ cypress/results/*
 cypress/reports/*
 cypress/screenshots/*
 cypress/videos/*
+cypress/e2e/1-getting-started/*
+cypress/e2e/2-advanced-examples/*
 
 ### Intellij+all ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
