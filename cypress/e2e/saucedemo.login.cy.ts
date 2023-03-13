@@ -1,6 +1,8 @@
 import { LoginPage } from "../page/index";
+import { InventoryPage } from "../page/index";
 
 const loginPage = new LoginPage();
+const inventoryPage = new InventoryPage();
 
 describe("Verifying Login Process for SauceDemo", () => {
     beforeEach(() => {
@@ -20,6 +22,6 @@ describe("Verifying Login Process for SauceDemo", () => {
         loginPage.login("standard_user", "secret_sauce");
 
         // Assertion that verifies that products list is displayed
-        cy.get(".title").should("have.text", "Products")
+        inventoryPage.getInventoryTitle().should("have.text", "Products")
     });
 });
