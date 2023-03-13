@@ -1,8 +1,8 @@
 class LoginPage {
-    private usernameInput: string;
-    private passwordInput: string;
-    private loginButton: string;
-    private errorMsg: string;
+    private usernameInput : string;
+    private passwordInput : string;
+    private loginButton : string;
+    private readonly errorMsg : string;
 
     constructor() {
         this.usernameInput = "[data-test='username']";
